@@ -6,7 +6,7 @@ import Layout from '../layouts/Layout.astro';
 		<img src="/images/logo.jpg" alt="Surf Dweller Logo" class="logo" />
 		<p class="blurb">Your home on the Emerald Coast</p>
 		<h1 class="display-title">SURF DWELLER CONDOMINIUM</h1>
-		<p class="address">554 Coral Court, Fort Walton Beach, FL 32548</p>
+		<a href="https://www.google.com/maps/search/?api=1&query=554+Coral+Court,+Fort+Walton+Beach,+FL+32548" class="address">554 Coral Court, Fort Walton Beach, FL 32548</a>
 		<a href="https://home.rdfassociates.com/public" class="button-primary">Home Owners Portal</a>
 	</div>
 </Layout>
@@ -49,6 +49,8 @@ import Layout from '../layouts/Layout.astro';
 		font-weight: 400;
 		margin-bottom: 2.5rem;
 		opacity: 0.8;
+		color: inherit;
+		text-decoration: none;
 	}
 
 	.button-primary {
