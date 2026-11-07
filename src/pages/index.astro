@@ -4,8 +4,9 @@ import Layout from '../layouts/Layout.astro';
 <Layout title="Surf Dweller">
 	<div class="hero-container">
 		<img src="/images/logo.jpg" alt="Surf Dweller Logo" class="logo" />
-		<h1 class="display-title">Welcome</h1>
-		<p class="sub-text">Welcome to the official site.</p>
+		<p class="blurb">Your home on the Emerald Coast</p>
+		<h1 class="display-title">SURF DWELLER CONDOMINIUM</h1>
+		<p class="address">554 Coral Court, Fort Walton Beach, FL 32548</p>
 		<a href="https://home.rdfassociates.com/public" class="button-primary">Home Owners Portal</a>
 	</div>
 </Layout>
@@ -22,25 +23,32 @@ import Layout from '../layouts/Layout.astro';
 	.logo {
 		width: clamp(250px, 50vw, 400px);
 		height: auto;
-		margin-bottom: 2rem;
+		margin-bottom: 1.5rem;
 		filter: drop-shadow(0 10px 20px rgba(0,0,0,0.3));
 	}
 
+	.blurb {
+		font-size: clamp(1.2rem, 4vw, 1.8rem);
+		font-weight: 600;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+		margin-bottom: 0.5rem;
+		color: #fff;
+	}
+
 	.display-title {
-		font-size: clamp(2.5rem, 8vw, 4rem);
+		font-size: clamp(2rem, 7vw, 3.5rem);
 		font-weight: 700;
 		letter-spacing: -0.02em;
 		line-height: 1.1;
-		margin-bottom: 1rem;
+		margin-bottom: 0.5rem;
 	}
 
-	.sub-text {
-		font-size: clamp(1.1rem, 3vw, 1.5rem);
+	.address {
+		font-size: clamp(1rem, 2.5vw, 1.25rem);
 		font-weight: 400;
-		letter-spacing: 0;
-		line-height: 1.5;
-		margin-bottom: 2rem;
-		opacity: 0.9;
+		margin-bottom: 2.5rem;
+		opacity: 0.8;
 	}
 
 	.button-primary {
