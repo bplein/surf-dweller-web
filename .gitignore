@@ -1,0 +1,15 @@
+# Agent/Hermes Files
+AGENTS.md
+AGENT_HUMAN_CONTRACT.md
+FORGEJO_ACCESS.md
+CONTRACT_EVENTS.md
+.hermes/
+
+# Node/Astro
+node_modules/
+dist/
+.astro/
+
+# OS/Misc
+.DS_Store
+tmp/
