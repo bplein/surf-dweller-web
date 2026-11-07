@@ -2,8 +2,12 @@
 import Layout from '../layouts/Layout.astro';
 ---
 <Layout title="Surf Dweller">
-	<img src="/images/SD_sample_logo_photo.jpg" alt="Logo" class="logo" />
-	<h1>Surf Dweller</h1>
+	<!-- Generated logo: emulates the monument sign (white panel, blue Comfortaa text) -->
+	<svg class="logo" viewBox="0 0 480 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Surf Dweller">
+		<rect x="4" y="4" width="472" height="152" rx="16" fill="#F5F5F5" stroke="#3B759C" stroke-width="4"/>
+		<text x="240" y="98" text-anchor="middle" font-family="Comfortaa, sans-serif" font-size="52" font-weight="700" fill="#3B759C">Surf Dweller</text>
+	</svg>
+	<h1>Welcome</h1>
 	<p>Welcome to the official site.</p>
 	<a href="#" class="portal-link">Home Owners Portal</a>
 </Layout>
