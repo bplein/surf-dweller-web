@@ -11,12 +11,7 @@
    ```
 
 ## Deployment
-The site is designed to be deployed via Cloudflare Workers/Pages.
-1. Build the project:
-   ```bash
-   npm run build
-   ```
-2. Deploy to Cloudflare using `wrangler`.
+Pushing updates to this repository will trigger a reload of the project source in Cloudflare.
 
 ## Content Updates
 To add new pages or content, create `.mdx` files within the `src/pages/` directory.
